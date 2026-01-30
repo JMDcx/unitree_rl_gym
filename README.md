@@ -44,6 +44,9 @@ Run the following command to start training:
 python legged_gym/scripts/train.py --task=xxx
 ```
 ```bash
+export WANDB_TENSORBOARD=true
+```
+```bash
 python legged_gym/scripts/train.py --task=g1 --num_envs 2048 --headless
 ```
 
