@@ -43,6 +43,9 @@ Run the following command to start training:
 ```bash
 python legged_gym/scripts/train.py --task=xxx
 ```
+```bash
+python legged_gym/scripts/train.py --task=g1 --num_envs 2048 --headless
+```
 
 #### ⚙️ Parameter Description
 - `--task`: Required parameter; values can be (go2, g1, h1, h1_2).
